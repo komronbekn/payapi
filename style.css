@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar__left {
+    align-items: center;
+}
+
+header {
+    align-items: center;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 165px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar__right__nav__ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.navbar__right__button--Demo {
+    width: 173px;
+    height: 48px;
+    font-family: ;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    letter-spacing: -0.11538461595773697px;
+    color: white;
+    border: none;
+    background-color: #BA4270;
+    border-radius: 20px;
+}
+
+.navbar__right__nav__ul__a {
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    text-align: left;
+    color: #36536B;
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+}
+
+.website__header2__right__img {
+    width: 350px;
+    height: 550px;
+
+}
+
+
+.website_header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 218px;
+}
+
+.website__tittle {
+    width: 500px;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    text-align: left;
+    color: #36536B;
+
+}
+
+.website__main__section1 {
+    width: 100%;
+    height: 472px;
+    background-color: #1B262F;
+    padding: 100px 165px;
+
+}
+
+.website__main__section1__left__p {
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    color: white;
+}
+
+.website__main__section1__left__description {
+    width: 445px;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FBFCFE;
+
+}
+
+.website__main__section1__left__button--About {
+    width: 129px;
+    height: 48px;
+    top: 1061px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    margin-top: 32px;
+}
+
+.website__main__section1 {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.website__main__section1__right__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 536px;
+}
+
+.website__main__section1__right__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 536px;
+
+}
+
+.website__main__section1__right {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.website__header2__right__forphone {
+    display: none;
+}
+
+.website__main__section1__right__forphone {
+    display: none;
+}
+
+.website__main__section1__right__fortablet {
+    display: none;
+}
+.website__main__section1__right__fortablet{
+    display: none;
+}
+@media (max-width:770px) {
+    .header__navbar {
+        padding: 40px;
+    }
+
+    .website__header2__right {
+        display: none;
+    }
+
+    .website__header2__right__forphone {
+        display: block;
+    }
+
+    .website_header2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .website__tittle {
+        width: 520px;
+        height: 122px;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: center;
+
+    }
+
+    .website__main__section1__right {
+        display: none;
+    }
+
+    .website__main__section1__right__fortablet {
+        display: block;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .website__main__section1__right__header__fortablet{
+        display: flex;
+        align-items: center;
+        gap: 85px;
+        margin-top: 90px;
+    }
+    .website__main__section1__right__bottom__fortablet{        display: flex;
+        align-items: center;
+    justify-content: space-between;    
+    }
+
+    .website__main__section1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        height: 615px;
+        top: 654px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    .website__main__section1__right__header {
+        margin-top: 88px;
+    }
+
+    .website__main__section1__left__p {
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: center;
+        margin-top: 64px;
+
+    }
+
+    .website__main__section1__left__description {
+        width: 456px;
+        height: 112px;
+        top: 80px;
+        gap: 0px;
+        opacity: 0.7px;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+
+    }
+    .website__main__section1__left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    .website__main__section1__right__fortablet{
+        display: none;
+    }
+    .website__main__section1__right__header__fortablet{
+        display: none;
+    }
+    .website__main__section1__right__bottom__fortablet{
+        display: none;
+    }
+    .header__navbar {
+        padding: 40px 24px;
+        padding-bottom: 0px;
+        align-items: center;
+    }
+
+    .navbar__right {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        width: 28px;
+        height: 17px;
+    }
+
+    .website__tittle {
+        width: 300px;
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2461538463830948px;
+        text-align: center;
+        margin-bottom: 72px;
+
+
+    }
+
+    .website_header2 {
+        display: block;
+    }
+
+    .website__header2__right {
+        display: none;
+    }
+
+    .website__header2__right__forphone {
+        display: block;
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .website__header2__right__img {
+        width: 150px;
+        height: 240px;
+
+    }
+
+    .website__header2__left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .website__main__section1 {
+        width: 100%;
+        height: 670px;
+        display: block;
+
+    }
+
+    .website__main__section1__left__p {}
+
+    .website__main__section1__right {
+        display: none;
+    }
+
+    .website__main__section1__right__forphone {
+        display: block;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .website__main__section1__right__forphone__header>img {
+        width: 107px;
+        display: flex;
+
+    }
+
+    .website__main__section1__right__forphone__header {
+        display: flex;
+        align-items: center;
+        margin-top: 105px;
+        gap: 50px;
+    }
+
+    .website__main__section1__right__forphone__main {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .website__main__section1__right__forphone__bottom {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .website__main__section1 {
+        padding: 0;
+    }
+
+    .website__main__section1__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        margin-top: 75px;
+    }
+
+    .website__main__section1__left__p {
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2461538463830948px;
+        text-align: center;
+
+    }
+
+    .website__main__section1__left__description {
+        width: 335px;
+    }
+
+    .website__main__section1__left__button--About {}
+}
+
+
+
+
