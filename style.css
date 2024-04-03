@@ -171,10 +171,143 @@ a {
 .website__main__section1__right__fortablet {
     display: none;
 }
-.website__main__section1__right__fortablet{
+
+.website__main__section1__right__fortablet {
     display: none;
 }
+
+.website__main__section2 {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+body {
+    background-color: #EDF3F8;
+}
+
+.website__main__section2__left__img {
+    width: 445px;
+    height: 284px;
+    top: 1359px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 150px;
+}
+
+.website__main__section2__right {
+    margin-top: 210px;
+}
+
+.website__main__section2__right__p {
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    color: #36536B;
+}
+
+.website__main__section2__right__description {
+    width: 445px;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6C8294;
+
+}
+
+.card1 {
+    width: 350px;
+    height: 279px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6C8294;
+    gap: 32px;
+}
+
+.card__description {}
+
+.card__description__tittle {
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.13846154510974884px;
+    text-align: center;
+
+}
+
+.card__description__description {
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: center;
+
+}
+
+
+
+.website__main__section3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+footer {
+    height: 100px;
+    background-color: #1B262F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.footer__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 560px;
+}
+
+.footer__navbar__left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__right__nav__ul_f {
+    margin-top: 15px;
+    display: flex;
+    gap: 40px;
+}
+
+.footer__navbar__right {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__navbarfortablet {
+    display: none;
+}
+
+.navbar__left{
+    display: flex;
+}
+
+
 @media (max-width:770px) {
+
     .header__navbar {
         padding: 40px;
     }
@@ -215,15 +348,18 @@ a {
         flex-direction: column;
 
     }
-    .website__main__section1__right__header__fortablet{
+
+    .website__main__section1__right__header__fortablet {
         display: flex;
         align-items: center;
         gap: 85px;
         margin-top: 90px;
     }
-    .website__main__section1__right__bottom__fortablet{        display: flex;
+
+    .website__main__section1__right__bottom__fortablet {
+        display: flex;
         align-items: center;
-    justify-content: space-between;    
+        justify-content: space-between;
     }
 
     .website__main__section1 {
@@ -266,9 +402,82 @@ a {
         text-align: center;
 
     }
-    .website__main__section1__left{
+
+    .website__main__section1__left {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .website__main__section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+
+
+    }
+
+    .website__main__section2__right {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .website__main__section2__right__description {
+        width: 573px;
+        height: 56px;
+        top: 80px;
+        gap: 0px;
+        opacity: 0px;
+        text-align: center;
+
+    }
+
+    .card1 {
+        width: 223px;
+        height: 311px;
+        top: 1893px;
+        left: 35px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    .card1__img {
+        width: 88px;
+        height: 88px;
+    }
+
+    .website__main__section3 {
+        gap: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+
+    }
+
+    .footer__navbar {
+        display: none;
+    }
+
+    .footer__navbarfortablet {
+        display: block;
+        display: flex;
+        gap: 138px;
+    }
+
+    .footer__navbar__left_tablet {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .footer__navbar__right_tablet {
+        display: flex;
+        gap: 24px;
         align-items: center;
     }
 }
@@ -385,15 +594,21 @@ a {
 
 
 @media (max-width:375px) {
-    .website__main__section1__right__fortablet{
+    .navbar__right__button--Demo{
         display: none;
     }
-    .website__main__section1__right__header__fortablet{
+    .website__main__section1__right__fortablet {
         display: none;
     }
-    .website__main__section1__right__bottom__fortablet{
+
+    .website__main__section1__right__header__fortablet {
         display: none;
     }
+
+    .website__main__section1__right__bottom__fortablet {
+        display: none;
+    }
+
     .header__navbar {
         padding: 40px 24px;
         padding-bottom: 0px;
@@ -523,8 +738,74 @@ a {
     }
 
     .website__main__section1__left__button--About {}
+
+    .website__main__section2__left__img {
+        width: 328px;
+        height: 209px;
+        top: 1311px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    .website__main__section2__right__p {
+        width: 327px;
+        height: 36px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: DM Serif Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2769230902194977px;
+        text-align: center;
+
+    }
+
+    .website__main__section2__right__description {
+        width: 328px;
+        height: 112px;
+        top: 60px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    .footer__navbarfortablet {
+        display: none;
+    }
+
+
+    .website__main__section3 {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        height: 353px;
+        display: block;
+        padding-top: 40px;
+
+
+    }
+
+    .footer__navbar {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer__navbar__left {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+.navbar__right__nav__ul_f{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
-
-
-
-
+}
